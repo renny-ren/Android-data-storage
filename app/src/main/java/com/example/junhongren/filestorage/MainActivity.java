@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
         return new File("null");
     }
 
-    // 以private形式保存到内部存储
+    // 以private形式保存到外部存储
     public File ExternalStoragePrivate(Context context, String albumName) throws IOException {
         // Get the directory for the app's private pictures directory.
         File f = new File(context.getExternalFilesDir(
